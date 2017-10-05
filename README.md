@@ -26,7 +26,7 @@ optional arguments:
 		"keys": ["key1", "key2"...],
 		"details": {
 			"key1": # details of row 1 as dictionary,
-			"key2": # details of row 1 as dictionary,
+			"key2": # details of row 2 as dictionary,
 			...
 		}
 	}
