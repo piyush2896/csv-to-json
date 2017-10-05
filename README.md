@@ -18,5 +18,23 @@ optional arguments:
                         n, 0 Note: Possible inputs are not case sensitive.
 ```
 
+## Output
+**JSON Format**
+```
+{
+	head_name: {
+		"keys": ["key1", "key2"...],
+		"details": {
+			"key1": # details of row 1 as dictionary,
+			"key2": # details of row 1 as dictionary,
+			...
+		}
+	}
+}
+```
+
+*head_name* - Name of destinantion file
+*["key1", "key2"...]* - Generated from key column passed
+
 ## Dependencies
 Only one dependency - **Pandas**
